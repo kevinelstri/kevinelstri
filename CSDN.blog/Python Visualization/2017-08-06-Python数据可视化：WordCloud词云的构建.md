@@ -1,3 +1,11 @@
+---
+title: Python数据可视化：饼状图
+categories:
+ - Python数据可视化
+---
+
+
+
 在Python中构建词云，采用的是wordcloud库
 官网: https://amueller.github.io/word_cloud/ 
 github: https://github.com/amueller/word_cloud 

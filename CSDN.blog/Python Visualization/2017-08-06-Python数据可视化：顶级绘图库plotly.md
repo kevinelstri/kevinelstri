@@ -1,3 +1,11 @@
+---
+title: Python数据可视化：顶级绘图库plotly
+categories:
+ - Python数据可视化
+---
+
+
+
 ![这里写图片描述](http://img.blog.csdn.net/20161101205144242)
 &#160;&#160;&#160;&#160;&#160;&#160;<font color='red'>**有史以来最牛逼的绘图工具，没有之一**</font>
 &#160;&#160;&#160;&#160;&#160;&#160;plotly是现代平台的敏捷商业智能和数据科学库，它作为一款开源的绘图库，可以应用于Python、R、MATLAB、Excel、JavaScript和jupyter等多种语言，主要使用的js进行图形绘制，实现过程中主要就是调用plotly的函数接口，底层实现完全被隐藏，便于初学者的掌握。
@@ -18,7 +26,7 @@ $ pip install plotly --upgrade
 ###**输出方式：**
 **在线：**
 &#160;&#160;&#160;&#160;&#160;&#160;将你的可视化图像保存到网站上，便于共享和保存。
-	
+​	
 
 ```
 import plotly.plotly as py
@@ -36,7 +44,7 @@ py.image.save_as(fig, filename='a-simple-plot.png')
 from IPython.display import Image
 Image('a-simple-plot.png')
 ```
-	
+
 
 **离线：**
 &#160;&#160;&#160;&#160;&#160;&#160;直接在本地生成可视化图像，便于使用。
